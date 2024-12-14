@@ -11,10 +11,10 @@ namespace SeleniumTest.Pages
             _driver = driver;
         }
 
-        // Locators
+        // Locator for Cart
         public IWebElement CartLink => _driver.FindElement(By.LinkText("Cart"));
 
-        // Methods
+        // Method to add product
         public void AddProductToCart(string productId, int quantity)
         {
             for (int i = 0; i < quantity; i++)

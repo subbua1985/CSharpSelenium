@@ -35,7 +35,7 @@ namespace SeleniumTest.Pages
             }
             catch (NoSuchElementException)
             {
-                return false; // If the error message is not found, return false
+                return false;
             }
         }
 

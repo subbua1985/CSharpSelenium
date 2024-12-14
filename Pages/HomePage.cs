@@ -11,11 +11,11 @@ namespace SeleniumTest.Pages
             _driver = driver;
         }
 
-        // Locators
+        // Locators for Contact and Shop
         public IWebElement ContactLink => _driver.FindElement(By.LinkText("Contact"));
         public IWebElement ShopLink => _driver.FindElement(By.LinkText("Shop"));
 
-        // Methods
+        // Methods to Click Contact page
         public void GoToContactPage()
         {
             ContactLink.Click();

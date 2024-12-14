@@ -11,7 +11,7 @@ namespace SeleniumTest.Pages
             _driver = driver;
         }
 
-        // Methods
+        // Method to get product price
         public decimal GetProductPrice(string productName)
         {
             var priceLocator = _driver.FindElement(By.XPath($"//tr[td[text()='{productName}']]/td[contains(@class, 'Price')]/span"));

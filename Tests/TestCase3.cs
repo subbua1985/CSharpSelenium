@@ -43,7 +43,7 @@ namespace SeleniumTest.Tests
                 Console.WriteLine($"Valentine Bear Price: {priceValentineBear}, Subtotal: {subtotalValentineBear}");
                 Console.WriteLine($"Total Price: {total}");
 
-                // Optional: Add assertions for verifying total (example)
+                // Add assertions for verifying total
                 decimal expectedTotal = (priceStuffedFrog * 2) + (priceFluffyBunny * 5) + (priceValentineBear * 3);
                 if (total == expectedTotal)
                 {
