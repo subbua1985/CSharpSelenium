@@ -20,8 +20,9 @@ Installation and Setup
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/your-repo/SeleniumTest.git
+git clone https://github.com/Santhoshiprabhu/SeleniumTest.git
 cd SeleniumTest
+
 2. Install Dependencies
 Install the necessary NuGet packages:
 
