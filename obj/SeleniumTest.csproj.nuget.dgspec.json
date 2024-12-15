@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/santhosh/SeleniumTest/SeleniumTest.csproj": {}
+    "C:\\Users\\asubb\\source\\repos\\SeleniumTest\\SeleniumTest.csproj": {}
   },
   "projects": {
-    "/Users/santhosh/SeleniumTest/SeleniumTest.csproj": {
+    "C:\\Users\\asubb\\source\\repos\\SeleniumTest\\SeleniumTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/santhosh/SeleniumTest/SeleniumTest.csproj",
+        "projectUniqueName": "C:\\Users\\asubb\\source\\repos\\SeleniumTest\\SeleniumTest.csproj",
         "projectName": "SeleniumTest",
-        "projectPath": "/Users/santhosh/SeleniumTest/SeleniumTest.csproj",
-        "packagesPath": "/Users/santhosh/.nuget/packages/",
-        "outputPath": "/Users/santhosh/SeleniumTest/obj/",
+        "projectPath": "C:\\Users\\asubb\\source\\repos\\SeleniumTest\\SeleniumTest.csproj",
+        "packagesPath": "C:\\Users\\asubb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asubb\\source\\repos\\SeleniumTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/santhosh/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\asubb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +39,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -50,7 +51,7 @@
             },
             "NUnit": {
               "target": "Package",
-              "version": "[4.2.2, )"
+              "version": "[4.3.0, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
@@ -60,9 +61,13 @@
               "target": "Package",
               "version": "[4.27.0, )"
             },
-            "Selenium.WebDriver.ChromeDriver": {
+            "SpecFlow": {
               "target": "Package",
-              "version": "[131.0.6778.10800, )"
+              "version": "[3.9.74, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.17.4, )"
             }
           },
           "imports": [
@@ -81,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
