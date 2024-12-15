@@ -11,7 +11,7 @@ namespace SeleniumTest.Tests
     public class TestCase3
     {
         [Test]
-        public void TestMethod3()
+        public void Test3()
         {
             // Use WebDriverManager to handle ChromeDriver setup
             new DriverManager().SetUpDriver(new ChromeConfig());
